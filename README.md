@@ -20,16 +20,15 @@ My *cap-completion* can complete command line so fast.
 
 It has only tested on CentOS. Other systems may be almost same.
 
-1. At first, you must install bash-completion module.
+### 1. At first, you must install bash-completion module.(ex. CentOS)
 
-* CentOS
     sudo yum -y --enablerepo=epel install bash-completion
 
-2. Install it into bash-completion's directory.
+### 2. Install it into bash-completion's directory.
 
     sudo cp cap-completion.sh /etc/bash_completion.d/
 
-3. Relaunch bash/terminal
+### 3. Relaunch bash/terminal
 
 ## Licence
 
